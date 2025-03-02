@@ -21,7 +21,8 @@ $f(n)\in o(g(n)) \implies  f(n)\in O(g(n))$
   
 $\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)  \implies \forall c>0, \exists n_0, \forall n\ge n_0: f(n) \le c g(n)$
   
-Choose $n_0$ such that $O(g(n)) \subset o(g(n))$
-Implication will be true given that O is a subset of o.
+$\forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)  \implies \forall x>0, \exists z_0, \forall z\ge z_0: f(z) \le c g(z)$ { rename variables, on right hand side of implication: $c = x, n=z, n_0 = z_0$ }
+$\forall x>0, \exists 
+
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
